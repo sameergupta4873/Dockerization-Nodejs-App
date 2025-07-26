@@ -34,7 +34,7 @@ jobs:
           ssh -o StrictHostKeyChecking=no -i private_key.pem ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "
           cd ~/Dockerization-Nodejs-App
           git pull origin master
-          docker pull ${{ secrets.DOCKER_USERNAME }}/my-node-app:latest
+          docker pull ${{ secrets.DOCKER_USERNAME }}/nodejs-app:latest
           docker-compose down
           docker-compose up -d
             "
