@@ -113,7 +113,7 @@ jobs:
 
 ---
 
-## 📸 Screenshots (Add them to boost portfolio impact!)
+## 📸 Screenshots
 - ![Docker Hub image](screenshots/dockerhub.png)
 - ![GitHub Actions success run](screenshots/actions.png)
 - ![EC2 terminal output](screenshots/ec2.png)
